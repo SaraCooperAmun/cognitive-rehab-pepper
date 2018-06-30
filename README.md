@@ -8,5 +8,3 @@ The aim of this project is to design a program for Softbank Robotic's Pepper to 
 
 -Django webpage: it contains the whole Django project for the design of the webpage. Requires to install all Django dependencies first: https://www.djangoproject.com/download/
 
--MySQL+nodeJS: the MySQL+nodeJS API to enable database access from Choregraphe. Download nodeJS first: https://nodejs.org/en/download/
-
