@@ -19,17 +19,22 @@ The following installations are requird to make use of this project.
 
 To use the Intel Euclid Developer Kit and gesture detection
 -Install VNC Viewer to access Intel Euclid PC https://www.realvnc.com/en/connect/download/viewer/
+
 -Install Librealsense package within the Euclid PC: https://github.com/IntelRealSense/librealsense
+
 -Install realsense samples on Euclid PC https://github.com/IntelRealSense/realsense_samples
 
 -On computer, make sure to have a Python IDLE that has:
+	
 	-Paramiko, to establish SSH connection to the Euclid: http://www.paramiko.org/installing.html
+	
 	-MySQLdb, to input gesture detections from the Python script to the MySQL database
 https://mysqlclient.readthedocs.io/user_guide.html
 
 
 To enable the use of Django webpage:
 -Install Django for Python https://www.djangoproject.com/download/
+
 -To plot charts install FusionCharts: https://www.fusioncharts.com/django-charts
 
 
