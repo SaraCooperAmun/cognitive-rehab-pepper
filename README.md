@@ -14,10 +14,10 @@ The aim of this project is to design a program for Softbank Robotic's Pepper to 
 
 The following installations are requird to make use of this project.
 
-
 - Download Choregraphe Suite from: https://community.ald.softbankrobotics.com
 
 To use the Intel Euclid Developer Kit and gesture detection
+
 -Install VNC Viewer to access Intel Euclid PC https://www.realvnc.com/en/connect/download/viewer/
 
 -Install Librealsense package within the Euclid PC: https://github.com/IntelRealSense/librealsense
@@ -33,6 +33,7 @@ https://mysqlclient.readthedocs.io/user_guide.html
 
 
 To enable the use of Django webpage:
+
 -Install Django for Python https://www.djangoproject.com/download/
 
 -To plot charts install FusionCharts: https://www.fusioncharts.com/django-charts
