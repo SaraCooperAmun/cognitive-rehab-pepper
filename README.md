@@ -54,10 +54,13 @@ There are two main demos: the cognitive rehabilitation programme and the cogniti
 ### Cognitive rehabilitation programme
 
 1. To establish connection between Choregraphe and MySQL, open two separate command windows. 
+
             -cd to \myproject, within the “Django webpage” folder and run
 	                 python manage.py runserver
+			 
             -cd to \myapp, where app.js is stored, and run
 	                  npm start
+			  
      This will begin the nodeJS application that will enable connection between Choregraphe and the MySQL database
 
 2. Open a web browser and go to 127.0.0.1:8000, which opens the webpage “Cognitive Rehabilitation with Pepper” to make sure the webpage is running
