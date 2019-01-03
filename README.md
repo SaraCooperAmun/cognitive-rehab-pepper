@@ -72,7 +72,7 @@ If the Intel Euclid Developer Kit is available and to test the game “ArmPositi
 	                        rs_pt_tutorial_2 >> test.txt
 				
                 -To run the arm gesture detection script:
-                          rs_pt_tutorial_3 >> test.txt
+                                rs_pt_tutorial_3 >> test.txt
 
 5. Open the Python IDLE on PC.
 
