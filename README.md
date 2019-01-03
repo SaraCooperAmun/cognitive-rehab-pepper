@@ -67,16 +67,21 @@ If the Intel Euclid Developer Kit is available and to test the game “ArmPositi
 3. Access Intel Euclid PC from an application such as VNC Viewer (address 10:42.0.1:5900)
 
 4. On a command window, run the corresponding realsense_samples tutorial, and specify the txt file where the output will be printed.
-	              -To run the head gesture detection script: 
+	        
+		-To run the head gesture detection script: 
 	                        rs_pt_tutorial_2 >> test.txt
+				
                 -To run the arm gesture detection script:
                           rs_pt_tutorial_3 >> test.txt
 
 5. Open the Python IDLE on PC.
+
                  -To run the head gesture detection script run:
                                 HeadGestureProcessing.py 
+				
                  -To run the arm gesture detection script run:
                                  ArmGestureDetection.py
+				 
 Note: it is important to notice that currently it is NOT possible to launch both gesture detections at the same time
 6. Run the CognitiveRehabilitation app in Choregraphe
 
