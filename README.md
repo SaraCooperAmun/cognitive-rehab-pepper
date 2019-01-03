@@ -42,7 +42,9 @@ To enable the use of Django webpage:
 To enable MySQL+NodeJS
 
 -NodeJS https://nodejs.org/en/download/
+
 -MySQL: https://dev.mysql.com/downloads/installer/
+
 -HeidiSQL to easily visualise MySQL data: https://www.heidisql.com/download.php
 
 ## Running the demos
