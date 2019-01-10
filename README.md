@@ -2,7 +2,9 @@
 
 The aim of this project is to design a program for Softbank Robotic's Pepper to deliver a cognitive therapy program. It includes multiple cognitive games as Pepper gives encouragement and feedback to the user, and a connection with an external MySQL database and Django webpage to keep track of patient data. Recognition of yes/no head gestures and the pointing gesture is also possible with the Intel Euclid Developer Kit. The repository includes the following files:
 
--Choregraphe: it contains the Choregraphe program of the full cognitive rehabilitation program. 
+-CognitiveRehabilitation: it contains the Choregraphe program of the full cognitive rehabilitation program, which includes: patient recognition and data retrieval from database, new patient registration, game selection, game level adjustment based on user, QIChat dialogues, multimedia activities, and different cognitive games with level progression depending on user performance
+
+-CognitiveTraining: includes the Choregraphe program that consists of different short cognitive games of multiple cognitive areas (memory, attention, recognition, etc), not personalised to patient (is not linked to database and does not offer level progression). User can select the games or Pepper can select them based on the initial Pepper version Mini-Mental State Examination assesment.
 
 -GestureProcessingCodes: it contains the Python codes for processing head pose data for yes/no detection, processing of arm pointing gesture, and code for acquiring yes/no thresholds. Necessary to have realsense camera -the one used was the Intel Euclid Developer Kit.
 
