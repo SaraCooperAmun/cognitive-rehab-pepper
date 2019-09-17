@@ -1,4 +1,4 @@
-# cognitive-rehab-pepper
+# Cognitive rehabilitation with Pepper (Middlesex University, Mondragon Unibertsitatea)
 
 The aim of this project is to design a program for Softbank Robotic's Pepper to deliver a cognitive therapy program. It includes multiple cognitive games as Pepper gives encouragement and feedback to the user, and a connection with an external MySQL database and Django webpage to keep track of patient data. Recognition of yes/no head gestures and the pointing gesture is also possible with the Intel Euclid Developer Kit. The repository includes the following files:
 
@@ -55,6 +55,9 @@ There are two main demos: the cognitive rehabilitation programme and the cogniti
 
 ### Cognitive rehabilitation programme
 
+The full demo is visible in https://www.youtube.com/watch?v=iX71ww66j4k
+More cognitive games designed can be appreciated here https://www.youtube.com/watch?v=S9LVzYqlYl8
+
 1. To establish connection between Choregraphe and MySQL, open two separate command windows. 
 
             -cd to \myproject, within the “Django webpage” folder and run
@@ -66,6 +69,8 @@ There are two main demos: the cognitive rehabilitation programme and the cogniti
      This will begin the nodeJS application that will enable connection between Choregraphe and the MySQL database
 
 2. Open a web browser and go to 127.0.0.1:8000, which opens the webpage “Cognitive Rehabilitation with Pepper” to make sure the webpage is running
+
+The interface looks like shown in this video: https://www.youtube.com/watch?v=A9DuPG-YNr4
 
 If the Intel Euclid Developer Kit is available and to test the game “ArmPositions” or the yes/no gesture detection for games “Mood”, “Q&A” or “Mem Machines” follow the following steps, otherwise skip to step 6.
 
